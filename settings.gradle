@@ -1,0 +1,2 @@
+include ':app',':mvpprocessor'
+rootProject.name = "MvpAnnotationProject"
