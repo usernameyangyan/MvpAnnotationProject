@@ -8,7 +8,7 @@ publish {
     groupId = 'com.youngman.mvp'
     artifactId = 'mvpprocessor'
     publishVersion = '1.0.0'
-    desc = '项目上传'
+    desc = '使用注解快速生成MVP文件'
     website = 'https://github.com/usernameyangyan/MvpAnnotationProject'// 可以设置github的项目地址
 }
 
