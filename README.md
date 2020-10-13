@@ -28,8 +28,14 @@
 
 
 ###  框架的引入
+
+kotlin项目引入：
 >  implementation 'com.youngman.mvp:mvpprocessor:1.0.0'
 >  kapt 'com.youngman.mvp:mvpprocessor:1.0.0'
+
+java项目引入：
+>  implementation 'com.youngman.mvp:mvpprocessor:1.0.0'
+>  annotationProcessor 'com.youngman.mvp:mvpprocessor:1.0.0'
 
 #### 注解MvpAnnotation属性介绍
 | 属性 | 作用 | 

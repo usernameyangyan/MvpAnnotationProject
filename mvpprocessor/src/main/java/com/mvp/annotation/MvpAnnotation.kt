@@ -21,7 +21,7 @@ annotation class MvpAnnotation(
      */
     val basePresenterClazz: KClass<*>,
     /**
-     * 需要生成的view接口的父接口,是一个数组，可以继承多个其他接口
+     * 需要生成的view接口的父类
      * @return
      */
     val baseViewClazz: KClass<*>,
