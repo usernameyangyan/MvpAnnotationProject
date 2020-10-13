@@ -1,5 +1,16 @@
 apply plugin: 'java-library'
 apply plugin: 'kotlin'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    repoName='mvpprocessor'
+    userOrg = 'youngmanopen'
+    groupId = 'com.youngman.mvp'
+    artifactId = 'mvpprocessor'
+    publishVersion = '1.0.0'
+    desc = '项目上传'
+    website = 'https://github.com/usernameyangyan/MvpAnnotationProject'// 可以设置github的项目地址
+}
 
 
 dependencies {
